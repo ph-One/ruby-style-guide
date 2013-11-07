@@ -93,9 +93,8 @@ Translations of the guide are available in the following languages:
 * Use **spaces** for alignment
 
     ```Ruby
-    # bad - four spaces
     def some_method
-      do_something(thisParameter=true,
+         do_something(thisParameter=true,
                    athotherParameter="apples"
                    evenMore="zomg");
     end

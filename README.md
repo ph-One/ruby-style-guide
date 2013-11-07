@@ -89,18 +89,17 @@ Translations of the guide are available in the following languages:
 > -- Jerry Coffin (on indentation)
 
 * Use `UTF-8` as the source file encoding.
-* Use two **spaces** per indentation level. No hard tabs.
+* Use **tabs** per indentation level. No hard tabs.
+* Use **spaces** for alignment
 
     ```Ruby
     # bad - four spaces
     def some_method
-        do_something
+      do_something(thisParameter=true,
+                   athotherParameter="apples"
+                   evenMore="zomg");
     end
 
-    # good
-    def some_method
-      do_something
-    end
     ```
 
 * Use Unix-style line endings. (*BSD/Solaris/Linux/OSX users are covered by default,
